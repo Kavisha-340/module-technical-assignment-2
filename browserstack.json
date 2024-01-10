@@ -1,0 +1,32 @@
+{
+    "auth": {
+        "username": "BROWSERSTACK_USERNAME",
+        "access_key": "BROWSERSTACK_ACCESS_KEY"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.js",
+        "project_name": "Module Assignment 2",
+        "build_name": "Build No. 1",
+        "exclude": [],
+        "parallels": "1",
+        "npm_dependencies": {},
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
